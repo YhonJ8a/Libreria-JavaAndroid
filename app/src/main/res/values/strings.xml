@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">libreria</string>
+    <string name="inicioSecion">Inicia Sesión</string>
+    <string name="textSecion">ven a leer y deja que tu imaginacion pueda volar sin limites</string>
+    <string name="correoSecion">Ingresa tu correo</string>
+    <string name="passwordSecion">Contraseña</string>
+    <string name="btnIniciarSecion">Iniciar Secion</string>
+
+    <string name="RegistrarSecion">No estar registrado?</string>
+    <string name="Registrartitulo">Crea Tu Cuenta</string>
+    <string name="RegistrarNombre">Nombre Completo</string>
+    <string name="RegistrarCorreo">Correo Electronico</string>
+    <string name="RegistrarTelefono">Nummero de Telefono</string>
+    <string name="RegistrarDireccion">Direccion</string>
+    <string name="RegistrarPassword">Contraseña</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="tienesCuenta">Tienes Cuenta? Inicia Sesion</string>
+    <string name="Registrartext">Disfruta miles de libros en la palma de tu mano</string>
+
+    <string name="MisLibrosBuscar">Buscar</string>
+    <string name="MisLibrostext">Mis Libros Prestados</string>
+    <string name="MisLibrosUsuario">Usuario</string>
+    <string name="MisLibrosBtnPrestar">Prestar</string>
+    <string name="MisLibrosBtnAtras">Atras</string>
+
+
+    <string name="MLPrestadosNombre">Nombre</string>
+    <string name="MLPrestadosAutor">Autor</string>
+    <string name="MLPrestadosFecha">Fecha Prestamo</string>
+
+
+    <string name="PLbtnprestar">Prestar</string>
+
+    <string name="NLnombre">Nombre Libro</string>
+    <string name="NLautor">Autor Libro</string>
+    <string name="NLcantidad">Cantidad Libros</string>
+    <string name="NLurl">Url Libro</string>
+    <string name="NLImagen">Imagen Libro</string>
+    <string name="NLdescripcion">Descripcion</string>
+    <string name="NLbtnAgregar">Agregar Libro</string>
+
+
+    <string name="AALnombre">Nombre Libro</string>
+    <string name="AALautor">Autor Libro</string>
+    <string name="AALcantodad">Cantidad Libros</string>
+    <string name="AALurl">Url Libro</string>
+    <string name="AALimagen">Imagen Libro</string>
+    <string name="AALdascripcion">Descripcion</string>
+    <string name="AAL_btn_Actualizar">Actualizar Libro</string>
+
+
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsuPrestarLibro">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/platilla_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="167dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        tools:layout_editor_absoluteX="122dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/PLnomLibro"
+        android:layout_width="188dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:layout_editor_absoluteX="111dp" />
+
+    <TextView
+        android:id="@+id/PLautor"
+        android:layout_width="161dp"
+        android:layout_height="28dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/PLnomLibro"
+        tools:layout_editor_absoluteX="125dp" />
+
+    <TextView
+        android:id="@+id/PLdescripcion"
+        android:layout_width="305dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/PLautor"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <Button
+        android:id="@+id/btnPrestar"
+        android:layout_width="184dp"
+        android:layout_height="64dp"
+        android:text="@string/PLbtnprestar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PLdescripcion"
+        app:layout_constraintVertical_bias="0.515"
+        tools:layout_editor_absoluteX="115dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

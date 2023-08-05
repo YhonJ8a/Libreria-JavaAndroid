@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".AdminActualizarLibro">
+
+    <include
+        layout="@layout/platilla_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:text="@string/AALnombre" />
+
+    <EditText
+        android:id="@+id/AALnombre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/fondo04"
+        android:layout_marginHorizontal="25dp"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="25dp"
+        android:text="@string/AALautor" />
+
+    <EditText
+        android:id="@+id/AAlautor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:background="@drawable/fondo04"
+        android:layout_marginHorizontal="25dp"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="25dp"
+        android:text="@string/AALcantodad" />
+
+    <EditText
+        android:id="@+id/AAlcantidad"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:background="@drawable/fondo04"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:layout_marginHorizontal="25dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="25dp"
+        android:text="@string/AALurl" />
+
+    <EditText
+        android:id="@+id/AALurl"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:background="@drawable/fondo04"
+        android:layout_marginHorizontal="25dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:text="@string/AALimagen" />
+
+    <EditText
+        android:id="@+id/AAlimagen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:background="@drawable/fondo04"
+        android:layout_marginHorizontal="25dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="25dp"
+        android:text="@string/AALdascripcion" />
+
+    <EditText
+        android:id="@+id/AAldescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/fondo04"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/BtnActualizar"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:background="@drawable/fondo_boton"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="25dp"
+        android:text="@string/AAL_btn_Actualizar" />
+
+</LinearLayout>
